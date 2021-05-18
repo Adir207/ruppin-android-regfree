@@ -1,0 +1,19 @@
+{
+  "name": "ruppin-android-regfree-backend",
+  "version": "1.0.0",
+  "description": "backend for the regfree app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adir207/ruppin-android-regfree.git"
+  },
+  "author": "Adir Segal & Lev Shpilko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adir207/ruppin-android-regfree/issues"
+  },
+  "homepage": "https://github.com/Adir207/ruppin-android-regfree#readme"
+}
