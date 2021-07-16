@@ -6,6 +6,7 @@ const routes = require('./routes/routes');
 var cors = require('cors');
 const app = express();
 
+<<<<<<< HEAD
 
 
 app.use(cors());
@@ -24,6 +25,10 @@ app.use((error, req, res, next) => {
 	}
 	res.status(error.code || 500);
 	res.json({ message: error.message || 'An unknown error occurred!' });
+=======
+app.use('/', (req, res, next) => {
+	res.send('welcome to Ruppin Regfree Server by Cloudonix');
+>>>>>>> be886739760d59ba5db7ee1cf37a492ed6c9d20b
 });
 
 app.listen(process.env.PORT || 3000);
